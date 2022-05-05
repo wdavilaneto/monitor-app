@@ -9,7 +9,7 @@ class ProjectCards extends Component {
 
     componentDidMount() {
         axios.get("/api/board?hide!=True").then((res) => {
-            const iboards = res.data;
+            const iboards = res.data.results;
             this.setState({iboards});
         });
     }

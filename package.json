@@ -53,6 +53,6 @@
   },
   "devDependencies": {
     "@babel/preset-react": "^7.10.4",
-    "git-commit-linter": "^2.4.4"
+    "git-commit-msg-linter": "^4.1.2"
   }
 }
